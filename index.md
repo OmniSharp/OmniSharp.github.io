@@ -1,5 +1,6 @@
 ---
 title: OmniSharp - .NET and Intellsense on any platform with your editor of choice
+layout: default
 ---
 
 ### Welcome to OmniSharp...for your editor!
