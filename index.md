@@ -8,40 +8,33 @@ layout: default
 
 OmniSharp is a family of Open Source projects, each with one goal - To enable great .NET development in YOUR editor of choice.
 
-It's fun to say Cross Platform .NET. But is it really possible? Is it reasonable for someone to develop .NET without Visual Studio and Windows? 
+It's fun to say Cross Platform .NET. But is it reasonable for someone to develop .NET without Visual Studio and Windows? 
 
-Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom?
+Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Can you use your editor PLUS get use great features like Intellisense (not just Autocomplete), Add Reference, Format Document, and lots more. Develop anywhere, deploy anywhere (and to [Azure](http://www.azure.com)!)
 
-### We say yes.
-We unapologetically love .NET. We love C# and ASP.NET. We also love Sublime, Atom, Emacs, Vim and Brackets.
-
-We create ASP.NET apps on Ubuntu and deploy to Azure. We make ASP.NET services from our Macs and deploy to Linux
-
-And we do all this while still getting to use useful features like Intellisense (not just Autocomplete), Add Reference, Format Document, and lots more.
-
-### Here's how to get started
+### Yes. Here's how to get started
 
 - Get <a href="https://github.com/aspnet/home#getting-started">ASP.NET vNext for your platform</a>.
--  Using command line?
-   - Create projects using <a href="https://www.npmjs.org/package/generator-aspnet">yeoman aspnet generators</a>
-   - Build projects using <code>kpm build</code>
-   - Run project from the command line with <code>k web</code> or <code>k run</code>
-   - Package projects for publishing with <code>kpm pack</code>
-- Using Sublime? 
+- [Sublime Text 3](http://www.sublimetext.com/)? 
    - Install the <code><a href="https://sublime.wbond.net/packages/Kulture">Kulture</a></code> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Install the <code><a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a></code> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Make sure your project also has a <a href="https://github.com/moonrabbit/OmniSharpSublime#example-of-sublime-project">sublime=-roject file</a>.
    - Optionally, change your <a href="https://github.com/moonrabbit/OmniSharpSublime#c-language-specific-settings">C# language settings to launch Intellsense on . and &lt;</a>.
-- Using Atom?
+-  [Atom](https://atom.io/)?
     - Install the <code>Autocomplete Plus Async</code> package.
     - Install the <code>Atom Sharper</code> plugin from Package Control.
     - Install the <code>Language Csharp</code> plugin from Package Control (optional for syntax highlighting).
-- Using Emacs?
+- [Emacs](http://www.gnu.org/software/emacs/)?
     - Do that...
-- Using Brackets?
+- [Brackets](http://brackets.io/)?
     - Do that...
-- Using Vim?
+- [Vim](http://www.vim.org/)?
     - Do that...
+-  Command line only?
+   - Create projects using <a href="https://www.npmjs.org/package/generator-aspnet">yeoman aspnet generators</a>
+   - Build projects using <code>kpm build</code>
+   - Run project from the command line with <code>k web</code> or <code>k run</code>
+   - Package projects for publishing with <code>kpm pack</code>
 
 ### Authors and Contributors
 
