@@ -19,8 +19,8 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 - Get <a href="https://github.com/aspnet/home#getting-started">ASP.NET vNext for your platform</a>.
 
 - [Sublime Text 3](http://www.sublimetext.com/)? 
-   - Install the <code><a href="https://sublime.wbond.net/packages/Kulture">Kulture</a></code> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
-   - Install the <code><a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a></code> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
+   - Install the <a href="https://sublime.wbond.net/packages/Kulture">Kulture</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
+   - Install the <a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Make sure your project also has a <a href="https://github.com/moonrabbit/OmniSharpSublime#example-of-sublime-project">sublime=-roject file</a>.
    - Optionally change your <a href="https://github.com/moonrabbit/OmniSharpSublime#c-language-specific-settings">C# language settings to launch Intellsense on . and &lt;</a>.
    - Optionally install a <a href="https://sublime.wbond.net/packages/C%23%20Snippets">C# Snippets package</a>
