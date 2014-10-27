@@ -23,7 +23,7 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
    - Install the <a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Make sure your project also has a <a href="https://github.com/moonrabbit/OmniSharpSublime#example-of-sublime-project">sublime-project file</a>.
    - Optionally change your <a href="https://github.com/moonrabbit/OmniSharpSublime#c-language-specific-settings">C# language settings to launch Intellsense on . and &lt;</a>.
-   - Optionally install a <a href="https://sublime.wbond.net/packages/C%23%20Snippets">C# Snippets package</a>
+   - Optionally install a <a href="https://sublime.wbond.net/packages/C%23%20Snippets">C# Snippets package</a>.
 -  [Atom](https://atom.io/)?
     - Install the <code>Autocomplete Plus Async</code> package.
     - Install the <code>Atom Sharper</code> plugin from Package Control.
