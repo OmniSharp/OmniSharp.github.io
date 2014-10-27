@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024">
+    <desc iVinci="yes" version="4.5" gridStep="20" showGrid="no" snapToGrid="no" codePlatform="0"/>
+    <g id="Layer1" opacity="1">
+        <g id="Shape1">
+            <desc shapeID="1" type="0" basicInfo-basicType="0" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-368.069,-471.5,736.139,943)" text="" font-familyName="" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(1,0,0,1,490.931,516.5)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath1" d="M433,45 C483,179 457,252 401,310 C340,374 245,422 178,516 C89,641 74,916 395,988 C260,917 231,711 377,582 C339,707 409,787 496,758 C581,729 637,790 635,860 C634,908 615,949 566,972 C775,935 859,762 859,630 C859,456 704,432 782,286 C689,294 657,355 666,455 C672,521 603,566 552,536 C511,511 512,463 548,427 C625,351 655,176 433,45 Z" style="stroke:none;fill-rule:nonzero;fill:#39be7f;fill-opacity:1;"/>
+        </g>
+    </g>
+</svg>
