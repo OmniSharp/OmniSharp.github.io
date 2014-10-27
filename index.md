@@ -48,5 +48,5 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 
 ### Authors and Contributors
 
-Jason Imison ([@nosami](http://github.com/nosami), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)), and Scott Hanselman ([@shanselman](http://github.com/shanselman)).
+Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)), and Scott Hanselman ([@shanselman](http://github.com/shanselman)).
 
