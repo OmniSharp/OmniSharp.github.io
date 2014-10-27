@@ -12,6 +12,8 @@ It's fun to say Cross Platform .NET. But is it reasonable for someone to develop
 
 Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Can you use your editor PLUS get use great features like Intellisense (not just Autocomplete), Add Reference, Format Document, and lots more. Develop anywhere, deploy anywhere (and to [Azure](http://www.azure.com)!)
 
+![It's amazing! Really. Intellisense in YOUR editor.](images/sublimevisualstudio.jpg?raw=true)
+
 ### Yes. Here's how to get started
 
 - Get <a href="https://github.com/aspnet/home#getting-started">ASP.NET vNext for your platform</a>.
@@ -40,5 +42,3 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 
 Jason Imison (@nosami), Jonathan Channon (@jchannon), Martinjn Laarman (@Mpdreamz), Sayed Ibrahim Hashimi (@sayedihashimi), and Scott Hanselman (@shanselman).
 
-### Looks what's possible!
-![It's amazing! Really. Intellisense in YOUR editor.](images/sublimevisualstudio.jpg?raw=true)
