@@ -33,7 +33,13 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 - [Brackets](http://brackets.io/)?
     - Do that...
 - [Vim](http://www.vim.org/)?
-    - Do that...
+    - Short version
+      - Install [OmniSharp](https://github.com/OmniSharp/Omnisharp), [vim-dispatch] (https://github.com/tpope/vim-dispatch), [CtrlP](https://github.com/kien/ctrlp.vim) & [Syntastic](https://github.com/scrooloose/syntastic) using your favourite method.
+      - Build the OmniSharp server
+      - Install [Python 2.7.5] (http://www.python.org/download/releases/2.7.5/)
+      - Create some [keybindings](https://github.com/OmniSharp/Omnisharp#configuration)
+   - Long version
+      - See [here](https://github.com/OmniSharp/Omnisharp)
 -  Command line only?
    - Create projects using <a href="https://www.npmjs.org/package/generator-aspnet">yeoman aspnet generators</a>
    - Build projects using <code>kpm build</code>
