@@ -17,6 +17,7 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 ### Yes. Here's how to get started
 
 - Get <a href="https://github.com/aspnet/home#getting-started">ASP.NET vNext for your platform</a>.
+
 - [Sublime Text 3](http://www.sublimetext.com/)? 
    - Install the <code><a href="https://sublime.wbond.net/packages/Kulture">Kulture</a></code> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Install the <code><a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a></code> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
