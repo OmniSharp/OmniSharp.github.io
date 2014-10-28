@@ -27,7 +27,7 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 -  [Atom](https://atom.io/)?
     - Install the <code>Autocomplete Plus Async</code> package.
     - Install the <code>Atom Sharper</code> plugin from Package Control.
-    - Install the <code>Language Csharp</code> plugin from Package Control (optional for syntax highlighting).
+    - Install the <code>Language Csharp</code> plugin from Package Control.
 - [Emacs](http://www.gnu.org/software/emacs/)?
     - Do that...
 - [Brackets](http://brackets.io/)?
