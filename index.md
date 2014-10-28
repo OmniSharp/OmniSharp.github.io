@@ -8,7 +8,7 @@ layout: default
 
 OmniSharp is a family of Open Source projects, each with one goal - To enable great .NET development in YOUR editor of choice.
 
-It's fun to say Cross Platform .NET. But is it reasonable for someone to develop .NET without Visual Studio and Windows? 
+It's fun to say Cross Platform .NET. But is it reasonable for someone to develop .NET without Visual Studio and Windows?
 
 Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Can you use your editor PLUS get use great features like Intellisense (not just Autocomplete), Add Reference, Format Document, and lots more. Develop anywhere, deploy anywhere (and to [Azure](http://www.azure.com)!)
 
@@ -18,7 +18,7 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 
 - Get <a href="https://github.com/aspnet/home#getting-started">ASP.NET vNext for your platform</a>.
 
-- [Sublime Text 3](http://www.sublimetext.com/)? 
+- [Sublime Text 3](http://www.sublimetext.com/)?
    - Install the <a href="https://sublime.wbond.net/packages/Kulture">Kulture</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Install the <a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
    - Make sure your project also has a <a href="https://github.com/moonrabbit/OmniSharpSublime#example-of-sublime-project">sublime-project file</a>.
@@ -48,5 +48,4 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
 
 ### Authors and Contributors
 
-Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)), and Scott Hanselman ([@shanselman](http://github.com/shanselman)).
-
+Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Stephen James ([@stephen-james](http://github.com/stephen-james)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)), and Scott Hanselman ([@shanselman](http://github.com/shanselman)).
