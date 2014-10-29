@@ -27,7 +27,17 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
     - Install the [Autocomplete Plus Async](https://atom.io/packages/autocomplete-plus-async) package.
     - Install the [Omnisharp Atom](https://atom.io/packages/omnisharp-atom) package.
 - [Emacs](http://www.gnu.org/software/emacs/)?
-    - Do that...
+    - Short version
+      - Enable the [MELPA](http://melpa.org/#/getting-started) package archive
+      - `M-x package-install RET omnisharp RET`
+      - Clone [OmniSharp](https://github.com/OmniSharp/Omnisharp) to a location of your choosing
+      - Build it :)
+      - Download [curl](http://www.python.org/download/releases/2.7.5/)
+      - Customize omnisharp with `M-x customize-group RET omnisharp RET`
+      - Currently there are default keybinding suggestions for `evil-mode` users [at github](https://github.com/OmniSharp/omnisharp-emacs/blob/master/example-config-for-evil-mode.el). Adopt them or create your own!
+      - Start omnisharp with `M-x omnisharp-mode RET` or automatically in a mode hook
+    - Long version
+      - See [here](https://github.com/OmniSharp/omnisharp-emacs)
 - [Brackets](http://brackets.io/)?
     - Do that...
 - [Vim](http://www.vim.org/)?
