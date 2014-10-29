@@ -32,7 +32,7 @@ Is it fun to do .NET on a Mac in Sublime? Ubuntu and Emacs? Windows and Atom? Ca
       - `M-x package-install RET omnisharp RET`
       - Clone [OmniSharp](https://github.com/OmniSharp/Omnisharp) to a location of your choosing
       - Build it :)
-      - Download [curl](http://www.python.org/download/releases/2.7.5/)
+      - Download [curl](http://curl.haxx.se/download.html)
       - Customize omnisharp with `M-x customize-group RET omnisharp RET`
       - Currently there are default keybinding suggestions for `evil-mode` users [at github](https://github.com/OmniSharp/omnisharp-emacs/blob/master/example-config-for-evil-mode.el). Adopt them or create your own!
       - Start omnisharp with `M-x omnisharp-mode RET` or automatically in a mode hook
