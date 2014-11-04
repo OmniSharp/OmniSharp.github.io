@@ -19,7 +19,7 @@ Get [ASP.NET vNext for your platform](https://github.com/aspnet/home#getting-sta
 
 ### [Sublime Text 3](http://www.sublimetext.com/)
 - Install the <a href="https://sublime.wbond.net/packages/Kulture">Kulture</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.
-- Install the <a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a> plugin from <a href="https://sublime.wbond.net/">Package Control and read the docs [here](http://omnisharp-sublime.readthedocs.org/en/latest/)</a>.
+- Install the <a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a> and read the docs [here](http://omnisharp-sublime.readthedocs.org/en/latest/)</a>.
 - Make sure your project also has a <a href="https://github.com/OmniSharp/omnisharp-sublime#project-setting">sublime-project file</a>.
 - Optionally change your <a href="https://github.com/OmniSharp/omnisharp-sublime#c-language-specific-settings">C# language settings to launch Intellisense on . and &lt;</a>.
 - Optionally install a <a href="https://sublime.wbond.net/packages/C%23%20Snippets">C# Snippets package</a>.
