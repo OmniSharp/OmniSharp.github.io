@@ -62,4 +62,4 @@ Get [ASP.NET vNext for your platform](https://github.com/aspnet/home#getting-sta
 
 ## Authors and Contributors
 
-Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Mat McLoughlin ([@mat-mcloughlin](https://github.com/mat-mcloughlin)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)) Stephen James ([@stephen-james](http://github.com/stephen-james)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)) Scott Hanselman ([@shanselman](http://github.com/shanselman)), and Mika Vilpas [@sp3ctum](https://github.com/sp3ctum).
+Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Mat McLoughlin ([@mat-mcloughlin](https://github.com/mat-mcloughlin)), Stephen James ([@stephen-james](http://github.com/stephen-james)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)) Scott Hanselman ([@shanselman](http://github.com/shanselman)), and Mika Vilpas [@sp3ctum](https://github.com/sp3ctum).
