@@ -3,7 +3,7 @@ title: OmniSharp - .NET and Intellsense on any platform with your editor of choi
 layout: default
 ---
 
-## Welcome to OmniSharp...for your editor!
+## Welcome to OmniSharp...for your editor! 
 ![Look at all those editor icons!](images/icons.png?raw=true)
 
 OmniSharp is a family of Open Source projects, each with one goal - To enable great .NET development in YOUR editor of choice.
