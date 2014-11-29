@@ -33,7 +33,7 @@ Get [ASP.NET 5 for your platform](https://github.com/aspnet/home#getting-started
 
 ### [Emacs](http://www.gnu.org/software/emacs/)
 - Short version
-    - Enable the [MELPA](http://melpa.org/#/getting-started) package archive
+    - Enable the [MELPA](http://melpa.org/#/getting-started) stable package archive. Use MELPA [stable](https://github.com/milkypostman/melpa#stable-packages) for official releases, or plain MELPA for development snapshots.
     - `M-x package-install RET omnisharp RET`
     - Clone [OmniSharp](https://github.com/OmniSharp/Omnisharp) to a location of your choosing
     - Build it :)
