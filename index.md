@@ -27,7 +27,7 @@ Get [ASP.NET 5 for your platform](https://github.com/aspnet/home#getting-started
 
 ### [Atom](https://atom.io/)
 - Install the [Language Csharp](https://atom.io/packages/language-csharp) package.
-- Install the [Autocomplete Plus Async](https://atom.io/packages/autocomplete-plus-async) package.
+- Install the [Autocomplete Plus](https://atom.io/packages/autocomplete-plus) package.
 - Install the [Omnisharp Atom](https://atom.io/packages/omnisharp-atom) package.
 
 ### [Emacs](http://www.gnu.org/software/emacs/)
