@@ -63,7 +63,7 @@ Get [ASP.NET 5 for your platform](https://github.com/aspnet/home#getting-started
 
 ## Authors and Contributors
 
-Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Mat McLoughlin ([@mat-mcloughlin](https://github.com/mat-mcloughlin)), Stephen James ([@stephen-james](http://github.com/stephen-james)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)) Scott Hanselman ([@shanselman](http://github.com/shanselman)), and Mika Vilpas [@sp3ctum](https://github.com/sp3ctum).
+Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon](http://github.com/jchannon)), Martijn Laarman ([@Mpdreamz](http://github.com/Mpdreamz)), Mat McLoughlin ([@mat-mcloughlin](https://github.com/mat-mcloughlin)), Stephen James ([@stephen-james](http://github.com/stephen-james)), Sayed Ibrahim Hashimi ([@sayedihashimi](http://github.com/sayedihashimi)) Scott Hanselman ([@shanselman](http://github.com/shanselman)), Mika Vilpas [@sp3ctum](https://github.com/sp3ctum), and Shayne Boyer ([@spboyer](http://github.com/spboyer)).
 
 ### Contact us
 
