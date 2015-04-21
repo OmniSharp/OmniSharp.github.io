@@ -26,9 +26,10 @@ Get [ASP.NET 5 for your platform](https://github.com/aspnet/home#getting-started
 *PS: If you are on windows, please ensure to install [Python](http://www.python.org/download/releases/2.7.5/) and have it added to your PATH*
 
 ### [Atom](https://atom.io/)
-- Install the [Language Csharp](https://atom.io/packages/language-csharp) package.
 - Install the [Autocomplete Plus](https://atom.io/packages/autocomplete-plus) package.
 - Install the [Omnisharp Atom](https://atom.io/packages/omnisharp-atom) package.
+ 
+And more info in the [OmniSharp Atom wiki](https://github.com/OmniSharp/omnisharp-atom/wiki)!
 
 ### [Emacs](http://www.gnu.org/software/emacs/)
 - Short version
