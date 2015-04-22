@@ -23,7 +23,6 @@ Get [ASP.NET 5 for your platform](https://github.com/aspnet/home#getting-started
 - Optionally change your <a href="https://github.com/OmniSharp/omnisharp-sublime#c-language-specific-settings">C# language settings to launch Intellisense on . and &lt;</a>.
 - Optionally install a <a href="https://sublime.wbond.net/packages/C%23%20Snippets">C# Snippets package</a>.
 
-*PS: If you are on windows, please ensure to install [Python](http://www.python.org/download/releases/2.7.5/) and have it added to your PATH*
 
 ### [Atom](https://atom.io/)
 - Install the [Autocomplete Plus](https://atom.io/packages/autocomplete-plus) package.
