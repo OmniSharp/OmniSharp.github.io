@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OmniSharp - .NET and Intellsense on any platform with your editor of choice</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="OmniSharp is a family of Open Source projects, each with one goal - To enable great .NET development in YOUR editor of choice.">
+    <link rel="canonical" href="http://www.omnisharp.net/">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+    <body id="page-top" class="index">
+       <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img src="/images/logo-text-h.png" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#integrations">Integrations</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#team">Team</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+        <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+		<div class="col-lg-2"></div>
+                <div class="col-lg-8">
+
+            <div class="row console-header">
+                <div class="col-lg-12">
+                </div>
+	    </div>
+            <div class="row console-body">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="images/logo-text.png" alt="">
+                    <hr class="star-light">
+		    <h2>Cross platform .NET development!</h2>
+                    <p> OmniSharp is a family of Open Source projects, each with one goal:
+To enable a great .NET experience in <strong>YOUR</strong> editor of choice</p>
+               </div>
+            </div>
+
+
+                </div>
+		<div class="col-lg-2"></div>
+            </div>
+        </div>
+    </header>
+
+     <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>OmniSharp is a set of tooling, editor integrations and libraries that together create an ecosystem that allows you to have a great programming experience no matter what your editor and operating system of choice may be.<p>
+                </div>
+                <div class="col-lg-6">
+                    <p>The OmniSharp project has been made by the community for the community, While a few of us work for Microsoft, this project is a community effort and not sponsored or endorsed by Microsoft. 
+The project was initially started by <a href="https://twitter.com/jasonimison">Jason Imison</a></p>
+                </div>
+            </div>
+            <div class="row" style="padding-top:100px">
+                <div class="col-lg-12 text-center">
+                    <h2>We say yes!</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-lg-4">
+                    <img src="/images/leader-image-1.png" class="pull-right">
+                    <p>We unapologetically love <strong>.NET</strong>. We love its languages and all <a href="http://www.nuget.org">it's libraries and frameworks</a>. We also love Sublime, Atom, Emacs, Vim and Brackets. </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="/images/leader-image-2.png" class="pull-right">
+                    <p>We create <a href="http://owin.org/">OWIN middleware</a> on Ubuntu and deploy to Azure. We make ASP.NET services from our Macs and deploy to Linux. </p>
+
+                </div>
+                <div class="col-lg-4">
+                    <img src="/images/leader-image-3.png" class="pull-right">
+                    <p>And we do all this while still using useful features like Intellisense, Add Reference, Format Document, and lots more. </p>
+                </div>
+            </div>
+            <div class="row" style="padding-top:100px">
+                <div class="col-lg-12 text-center">
+                    <a href="https://github.com/omnisharp" class="btn btn-lg btn-success">
+                        <i class="fa fa-github"></i> Get involved!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Portfolio Grid Section -->
+    <section id="integrations" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Here's how you can too</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-atom" class="portfolio-link text-center" data-toggle="modal">
+                            
+                            <img src="images/atom.png" class="img-responsive integration img-centered" alt="atom">
+                            
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-brackets" class="portfolio-link text-center" data-toggle="modal">
+                            
+                            <img src="images/brackets.png" class="img-responsive integration img-centered" alt="brackets">
+                            
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-console" class="portfolio-link text-center" data-toggle="modal">
+                            
+                            <img src="images/console.png" class="img-responsive integration img-centered" alt="console">
+                            
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-emacs" class="portfolio-link text-center" data-toggle="modal">
+                            
+                            <img src="images/emacs.png" class="img-responsive integration img-centered" alt="emacs">
+                            
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-sublime" class="portfolio-link text-center" data-toggle="modal">
+                            
+                            <img src="images/sublimetext.png" class="img-responsive integration img-centered" alt="sublime">
+                            
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-vim" class="portfolio-link text-center" data-toggle="modal">
+                            
+                            <img src="images/vim.png" class="img-responsive integration img-centered" alt="vim">
+                            
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+        <section id="team" class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Meet The Team</h2>
+                    <hr class="star-primary">
+                    <p><strong>We are not some secret organization, you can join us too! Help is always appreciated.</p>
+<p><a class="btn btn-warning" href="https://jabbr.net/#/rooms/omnisharp">Come hang out with us on JabbR</a></strong></p>
+                </div>
+            </div>
+            <div class="row">
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Jason Imison</h4>
+
+<a href="http://twitter.com/jasonimison" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/nosami" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/jasonimison.png" class="img-responsive team img-centered img-circle" alt="Jason Imison">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>David Fowler</h4>
+
+<a href="http://twitter.com/davidfowl" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/davidfowl" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/davidfowl.jpeg" class="img-responsive team img-centered img-circle" alt="David Fowler">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Jonathan Channon</h4>
+
+<a href="http://twitter.com/jchannon" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/jchannon" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/jchannon.jpeg" class="img-responsive team img-centered img-circle" alt="Jonathan Channon">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Johannes Rieken</h4>
+
+<a href="http://twitter.com/johannesrieken" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<img src="images/team/johannesrieken.jpeg" class="img-responsive team img-centered img-circle" alt="Johannes Rieken">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Mathew McLoughlin</h4>
+
+<a href="http://twitter.com/mat_mcloughlin" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/mat_mcloughlin" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/mat_mcloughlin.png" class="img-responsive team img-centered img-circle" alt="Mathew McLoughlin">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Martijn Laarman</h4>
+
+<a href="http://twitter.com/mpdreamz" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/mpdreamz" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/mpdreamz.jpeg" class="img-responsive team img-centered img-circle" alt="Martijn Laarman">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Mika Vilpas</h4>
+
+
+<a href="http://github.com/sp3ctum" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/sp3ctum.jpeg" class="img-responsive team img-centered img-circle" alt="Mika Vilpas">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Scott Hanselman</h4>
+
+<a href="http://twitter.com/shanselman" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/shanselman" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/shanselman.jpeg" class="img-responsive team img-centered img-circle" alt="Scott Hanselman">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Sayed Ibrahim Hashimi</h4>
+
+<a href="http://twitter.com/sayedihashimi" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/sayedihashimi" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/sayedihashimi.jpeg" class="img-responsive team img-centered img-circle" alt="Sayed Ibrahim Hashimi">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Chad Tolkien</h4>
+
+<a href="http://twitter.com/c_tolkien" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/c_tolkien" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/c_tolkien.jpeg" class="img-responsive team img-centered img-circle" alt="Chad Tolkien">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>David Driscoll</h4>
+
+<a href="http://twitter.com/david_blacklite" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/david_blacklite" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/david_blacklite.jpeg" class="img-responsive team img-centered img-circle" alt="David Driscoll">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Sam Williamson</h4>
+
+
+<a href="http://github.com/sgwill" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/sgwill.jpeg" class="img-responsive team img-centered img-circle" alt="Sam Williamson">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Shayne Boyer</h4>
+
+<a href="http://twitter.com/spboyer" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/spboyer" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/spboyer.jpeg" class="img-responsive team img-centered img-circle" alt="Shayne Boyer">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Stephen James</h4>
+
+<a href="http://twitter.com/stephenhjames" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/stephen-james" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/stephenhjames.png" class="img-responsive team img-centered img-circle" alt="Stephen James">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>James Humphries</h4>
+
+<a href="http://twitter.com/yantrio" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/yantrio" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/yantrio.jpeg" class="img-responsive team img-centered img-circle" alt="James Humphries">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>William Luu</h4>
+
+<a href="http://twitter.com/willl" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/willl" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/willl.jpeg" class="img-responsive team img-centered img-circle" alt="William Luu">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Chris Dias</h4>
+
+<a href="http://twitter.com/chrisdias" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/chrisdias" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/chrisdias.png" class="img-responsive team img-centered img-circle" alt="Chris Dias">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Mark Rendle</h4>
+
+<a href="http://twitter.com/markrendle" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/markrendle" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/markrendle.png" class="img-responsive team img-centered img-circle" alt="Mark Rendle">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Simon Carter</h4>
+
+<a href="http://twitter.com/bbbscarter" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/bbbscarter" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/bbbscarter.jpg" class="img-responsive team img-centered img-circle" alt="Simon Carter">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>Peter Blazejewicz</h4>
+
+<a href="http://twitter.com/blazejewicz" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/peterblazejewicz" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/blazejewicz.jpeg" class="img-responsive team img-centered img-circle" alt="Peter Blazejewicz">
+		            
+</ul>
+</p>
+                    </div>
+                
+                    <div class="col-sm-3 portfolio-item">
+<h4>thinca</h4>
+
+<a href="http://twitter.com/thinca" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+
+
+<a href="http://github.com/thinca" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
+
+<img src="images/team/thinca.png" class="img-responsive team img-centered img-circle" alt="thinca">
+		            
+</ul>
+</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="http://twitter.com/omnisharp" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+		            
+                            <li>
+                                <a href="http://stackoverflow.com/questions/tagged/omnisharp" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+		            
+                            <li>
+                                <a href="http://github.com/omnisharp" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Omnisharp Team 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+     <!-- Portfolio Modals -->
+ 
+    <div class="portfolio-modal modal fade" id="portfolioModal-atom" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h2 class="text-center">
+                               <img src="images/atom.png" class="img-responsive pull-right" alt="atom">
+                               Omnisharp-Atom
+                               <img src="images/logo.png" class="img-responsive pull-left" alt="OmniSharp">
+                            </h2>
+                            <hr class="star-primary">
+                            <p>Installing the Atom OmniSharp integration requires one step:</p>
+
+<ol>
+  <li>Install the <a href="https://atom.io/packages/omnisharp-atom">Omnisharp-Atom package</a>.</li>
+</ol>
+
+<p>You can do this from inside Atom using the packages interface or on the commandline using:</p>
+
+<pre><code>apm install omnisharp-atom
+</code></pre>
+
+<p>OmniSharp-Atom will automatically start the OmniSharp server when you open a C# file.</p>
+
+                           <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-brackets" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h2 class="text-center">
+                               <img src="images/brackets.png" class="img-responsive pull-right" alt="brackets">
+                               omnisharp-brackets
+                               <img src="images/logo.png" class="img-responsive pull-left" alt="OmniSharp">
+                            </h2>
+                            <hr class="star-primary">
+                            <ol>
+  <li>Install the Omnisharp extension from the <a href="https://brackets-registry.aboutweb.com/">extension manager</a> within Brackets.io</li>
+</ol>
+
+                           <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-console" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h2 class="text-center">
+                               <img src="images/console.png" class="img-responsive pull-right" alt="console">
+                               Command Line
+                               <img src="images/logo.png" class="img-responsive pull-left" alt="OmniSharp">
+                            </h2>
+                            <hr class="star-primary">
+                            <h3 id="command-line-only">Command line only</h3>
+<ul>
+  <li>Create projects using <a href="https://www.npmjs.org/package/generator-aspnet">yeoman aspnet generators</a></li>
+  <li>Build projects using <code>kpm build</code></li>
+  <li>Run project from the command line with <code>k web</code> or <code>k run</code></li>
+  <li>Package projects for publishing with <code>kpm pack</code></li>
+</ul>
+
+<h3 id="yeoman-generators">Yeoman generators</h3>
+
+<p>Getting started with projects is easy using <a href="http://yeoman.io/">yeoman</a>. Here are some generators that you
+can use to get started.</p>
+
+<h4 id="generator-aspnet"><code>generator-aspnet</code></h4>
+
+<p>The goal of <a href="https://github.com/OmniSharp/generator-aspnet"><code>generator-aspnet</code></a> is to provide an experience consistent with creating new ASP.NET 5 (<em>DNX</em>) projects
+and files in Visual Studio 2015. Below are some other related generators that you may be interested in.</p>
+
+<h4 id="generator-csharp"><code>generator-csharp</code></h4>
+
+<p><a href="https://github.com/OmniSharp/generator-csharp"><code>generator-csharp</code></a> is a work in progress but is available for you to try out today. The goal of <a href="https://github.com/OmniSharp/generator-csharp"><code>generator-csharp</code></a> is to provide an experience consistent with creating C# projects (<em>MSBuild based, not DNX</em>) and files in Visual Studio 2015.</p>
+
+<p>If you are working on a related generator please <a href="https://github.com/OmniSharp/generator-aspnet/issues/new">open an issue</a> to let us know about it so that we can add it to the list.</p>
+
+
+                           <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-emacs" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h2 class="text-center">
+                               <img src="images/emacs.png" class="img-responsive pull-right" alt="emacs">
+                               Omnisharp-Emacs
+                               <img src="images/logo.png" class="img-responsive pull-left" alt="OmniSharp">
+                            </h2>
+                            <hr class="star-primary">
+                            <h3 id="short-version">Short version</h3>
+<ol>
+  <li>Enable the <a href="http://melpa.org/#/getting-started">MELPA</a> stable package archive. Use MELPA <a href="https://github.com/milkypostman/melpa#stable-packages">stable</a> for official releases, or plain MELPA for development snapshots.</li>
+  <li><code>M-x package-install RET omnisharp RET</code></li>
+  <li>Clone <a href="https://github.com/OmniSharp/omnisharp-server">omnisharp-server</a> to a location of your choosing</li>
+  <li>Build it :)</li>
+  <li>Download <a href="http://curl.haxx.se/download.html">curl</a></li>
+  <li>Customize omnisharp with <code>M-x customize-group RET omnisharp RET</code></li>
+  <li>Currently there are default keybinding suggestions for <code>evil-mode</code> users <a href="https://github.com/OmniSharp/omnisharp-emacs/blob/master/example-config-for-evil-mode.el">at github</a>. Adopt them or create your own!
+    <ul>
+      <li>Start omnisharp with <code>M-x omnisharp-mode RET</code> or automatically in a mode hook</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="long-version">Long version</h3>
+<ol>
+  <li>See <a href="https://github.com/OmniSharp/omnisharp-emacs">here</a></li>
+</ol>
+
+                           <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-sublime" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h2 class="text-center">
+                               <img src="images/sublimetext.png" class="img-responsive pull-right" alt="sublime">
+                               OmniSharpSublime for ST3
+                               <img src="images/logo.png" class="img-responsive pull-left" alt="OmniSharp">
+                            </h2>
+                            <hr class="star-primary">
+                            <ol>
+  <li>Install the <a href="https://sublime.wbond.net/packages/Kulture">Kulture</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a>.</li>
+  <li>Install the <a href="https://sublime.wbond.net/packages/OmniSharp">OmniSharp</a> plugin from <a href="https://sublime.wbond.net/">Package Control</a> and read the docs <a href="http://omnisharp-sublime.readthedocs.org/en/latest/">here</a>.</li>
+  <li>Optionally change your <a href="https://github.com/OmniSharp/omnisharp-sublime#c-language-specific-settings">C# language settings to launch Intellisense on . and &lt;</a>.</li>
+  <li>Optionally install a <a href="https://sublime.wbond.net/packages/C%23%20Snippets">C# Snippets package</a>.</li>
+</ol>
+
+                           <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-vim" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h2 class="text-center">
+                               <img src="images/vim.png" class="img-responsive pull-right" alt="vim">
+                               OmniSharp-Vim
+                               <img src="images/logo.png" class="img-responsive pull-left" alt="OmniSharp">
+                            </h2>
+                            <hr class="star-primary">
+                            <h3 id="short-version">Short version</h3>
+<ol>
+  <li>Install <a href="https://github.com/OmniSharp/Omnisharp">OmniSharp</a>, <a href="https://github.com/tpope/vim-dispatch">vim-dispatch</a>, <a href="https://github.com/kien/ctrlp.vim">CtrlP</a> &amp; <a href="https://github.com/scrooloose/syntastic">Syntastic</a> using your favourite method.</li>
+  <li>Build the OmniSharp server</li>
+  <li>Install <a href="http://www.python.org/download/releases/2.7.5/">Python 2.7.5</a></li>
+  <li>Create some <a href="https://github.com/OmniSharp/Omnisharp#configuration">keybindings</a></li>
+</ol>
+
+<h3 id="long-version">Long version</h3>
+<ol>
+  <li>See <a href="https://github.com/OmniSharp/Omnisharp">here</a></li>
+</ol>
+
+                           <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+     <script src="/js/contact_me.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+
+    </body>
+</html>
