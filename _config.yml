@@ -1,0 +1,41 @@
+# Site settings
+name: OmniSharp
+title: OmniSharp - Cross platform .NET development
+email: wedonothaveanemail@omnisharp.net
+url: http://www.omnisharp.net
+description: "OmniSharp is a family of Open Source projects, each with one goal - To enable great .NET development in YOUR editor of choice."
+collections:
+- integrations
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Omnisharp Team
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/omnisharp
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/omnisharp
+  - title: github
+    url: http://github.com/omnisharp
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+
+# Credits content
+credits: 'OmniSharp is a collection of community projects made by lovers of .NET. While a few of us work for Microsoft, this project is a community effort and not sponsored or endorsed by Microsoft. '
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,25 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="integrations" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Here's how you can too</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                {% for i in site.integrations %}
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-{{ i.name }}" class="portfolio-link text-center" data-toggle="modal">
+                            {% if i.image %}
+                            <img src="images/{{ i.image }}" class="img-responsive integration img-centered" alt="{{ i.name }}">
+                            {% else %}
+                            <i class="fa fa-{{ i.fa }}"></i>{{ i.name }}
+                            {% endif %}
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
