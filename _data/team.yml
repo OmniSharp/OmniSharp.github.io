@@ -30,7 +30,8 @@
 
 - name: Mika Vilpas
   image: sp3ctum.jpeg
-  github: sp3ctum 
+  github: sp3ctum
+  twitter: sp3ctum
 
 - name: Scott Hanselman
   image: shanselman.jpeg
