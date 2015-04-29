@@ -11,7 +11,6 @@
             <div class="row">
                 {% for i in site.data.team %}
                     <div class="col-sm-3 portfolio-item">
-<h4>{{ i.name }}</h4>
 {% if i.twitter %}
 <a href="http://twitter.com/{{ i.twitter }}" class="btn-social btn-outline pull-left team-twitter"><i class="fa fa-fw fa-twitter"></i></a>
 {% endif %}
@@ -19,9 +18,7 @@
 <a href="http://github.com/{{ i.github }}" class="btn-social btn-outline pull-right team-github"><i class="fa fa-fw fa-github"></i></a>
 {% endif %}
 <img src="images/team/{{ i.image }}" class="img-responsive team img-centered img-circle" alt="{{ i.name }}">
-		            
-</ul>
-</p>
+<h4>{{ i.name }}</h4>
                     </div>
                 {% endfor %}
             </div>
