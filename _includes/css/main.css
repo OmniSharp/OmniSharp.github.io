@@ -226,6 +226,7 @@ section.success {
 .portfolio-link {
     display:block;
 }
+.portfolio-link:focus,
 .portfolio-link:hover {
     background: rgba(255,255,255,.3);
     -webkit-transition: all ease .9s;
