@@ -5,13 +5,25 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+// The original function has been modified to provide support for page linking
+// In modern browsers HTML5 History.pushState is used to update location
+// in older browsers native behavior of location.hash is used and
+// no animated scroll occurs. In effect the navigation is progressively
+// enhanced with animations on supporting browsers.
 $(function() {
-    $('.page-scroll a').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+    $(document.body).on('click', '.page-scroll a', function(event) {
+        if(history.pushState) {
+          var $anchor = $(this),
+            hash = $anchor.attr('href');
+          event.preventDefault();
+          // avoid dups in history hash
+          if(window.location.hash !== hash) {
+            history.pushState(null, null, hash);
+          }
+          $('html, body').stop().animate({
+              scrollTop: $(hash).offset().top
+          }, 1500, 'easeInOutExpo');
+        }
     });
 });
 
