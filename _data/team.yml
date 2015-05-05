@@ -5,28 +5,28 @@
 
 - name: David Fowler
   image: davidfowl.jpeg
-  twitter: davidfowl 
-  github: davidfowl 
+  twitter: davidfowl
+  github: davidfowl
 
 - name: Jonathan Channon
   image: jchannon.jpeg
-  twitter: jchannon 
-  github: jchannon 
+  twitter: jchannon
+  github: jchannon
 
 - name: Johannes Rieken
   image: johannesrieken.jpeg
-  twitter: johannesrieken 
-  githyb: johannesrieken 
+  twitter: johannesrieken
+  githyb: johannesrieken
 
 - name: Mathew McLoughlin
   image: mat_mcloughlin.png
   twitter: mat_mcloughlin
-  github: mat_mcloughlin
+  github: mat-mcloughlin
 
 - name: Martijn Laarman
   image: mpdreamz.jpeg
-  twitter: mpdreamz 
-  github: mpdreamz 
+  twitter: mpdreamz
+  github: mpdreamz
 
 - name: Mika Vilpas
   image: sp3ctum.jpeg
@@ -40,65 +40,65 @@
 
 - name: Sayed Ibrahim Hashimi
   image: sayedihashimi.jpeg
-  twitter: sayedihashimi 
-  github: sayedihashimi 
+  twitter: sayedihashimi
+  github: sayedihashimi
 
 - name: Chad Tolkien
   image: c_tolkien.jpeg
-  twitter: c_tolkien 
-  github: c_tolkien 
+  twitter: c_tolkien
+  github: ctolkien
 
 - name: David Driscoll
   image: david_blacklite.jpeg
-  twitter: david_blacklite 
-  github: david_blacklite 
+  twitter: david_blacklite
+  github: david-driscoll 
 
 - name: Sam Williamson
   image: sgwill.jpeg
   twitter: sgwill
-  github: sgwill 
+  github: sgwill
 
 - name: Shayne Boyer
   image: spboyer.jpeg
-  twitter: spboyer 
-  github: spboyer 
+  twitter: spboyer
+  github: spboyer
 
 - name: Stephen James
   image: stephenhjames.png
-  twitter: stephenhjames 
-  github: stephen-james 
+  twitter: stephenhjames
+  github: stephen-james
 
 - name: James Humphries
   image: yantrio.jpeg
-  twitter: yantrio 
-  github: yantrio 
+  twitter: yantrio
+  github: yantrio
 
 - name: William Luu
   image: willl.jpeg
-  twitter: willl 
-  github: willl 
+  twitter: willl
+  github: willl
 
 - name: Chris Dias
   image: chrisdias.png
-  twitter: chrisdias 
-  github: chrisdias 
+  twitter: chrisdias
+  github: chrisdias
 
 - name: Mark Rendle
   image: markrendle.png
-  twitter: markrendle 
-  github: markrendle 
+  twitter: markrendle
+  github: markrendle
 
 - name: Simon Carter
   image: bbbscarter.jpg
-  twitter: bbbscarter 
-  github: bbbscarter 
+  twitter: bbbscarter
+  github: bbbscarter
 
 - name: Peter Blazejewicz
   image: blazejewicz.jpeg
-  twitter: blazejewicz 
+  twitter: blazejewicz
   github: peterblazejewicz
 
 - name: thinca
   image: thinca.png
-  twitter: thinca 
-  github: thinca 
+  twitter: thinca
+  github: thinca
