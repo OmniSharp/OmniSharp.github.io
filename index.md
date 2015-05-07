@@ -1,5 +1,5 @@
 ---
-title: OmniSharp - .NET and Intellsense on any platform with your editor of choice
+title: OmniSharp - .NET and IntelliSense on any platform with your editor of choice
 layout: default
 ---
 
