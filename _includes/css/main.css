@@ -73,14 +73,14 @@ hr.star-primary {
 header {
     text-align: center;
     color: #fff;
-    background: url('/images/header.png') bottom left;
-    background-size:cover;
+    background: url('/images/header.jpg') bottom left;
+    background-size: cover;
 }
 section#team {
     text-align: center;
     color: #fff;
-    background: url('/images/team-background.png') bottom left;
-    background-size:cover;
+    background: url('/images/team-background.jpg') bottom left;
+    background-size: cover;
 }
 section#team .team-twitter {
     position: absolute;
