@@ -6,9 +6,9 @@ header: Command Line
 
 ### Command line only
 - Create projects using <a href="https://www.npmjs.org/package/generator-aspnet">yeoman aspnet generators</a>
-- Build projects using <code>kpm build</code>
-- Run project from the command line with <code>k web</code> or <code>k run</code>
-- Package projects for publishing with <code>kpm pack</code>
+- Build projects using <code>dnu build</code>
+- Run project from the command line with <code>dnx . web</code> or <code>dnx . run</code>
+- Package projects for publishing with <code>dnu pack</code>
 
 ### Yeoman generators
 
