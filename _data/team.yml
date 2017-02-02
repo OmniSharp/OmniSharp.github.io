@@ -48,11 +48,6 @@
   twitter: troy_dai
   github: troydai
 
-- name: Chuck Ries
-  image: chuckries.jpg
-  twitter: chuckguy55
-  github: chuckries
-
 - name: Rajkumar Janakiraman
   image: rajkumar42.png
   github: rajkumar42
@@ -61,12 +56,16 @@
   image: gregg-miskelly.png
   github: gregg-miskelly
 
+- name: Cagri Aslan
+  image: caslan.png
+  github: caslan
+
+- name: Chuck Ries
+  image: chuckries.jpg
+  twitter: chuckguy55
+  github: chuckries
+
 - name: Scott Hanselman
   image: shanselman.jpeg
   twitter: shanselman
   github: shanselman
-
-- name: Filip W
-  image: filipw.jpg
-  twitter: filip_woj
-  github: filipw
