@@ -3,7 +3,7 @@ title: OmniSharp - .NET and IntelliSense on any platform with your editor of cho
 layout: default
 ---
 
-## Welcome to OmniSharp...for your editor! 
+## Welcome to OmniSharp...for your editor!
 ![Look at all those editor icons!](images/icons.png?raw=true)
 
 OmniSharp is a family of Open Source projects, each with one goal - To enable great .NET development in YOUR editor of choice.
@@ -27,7 +27,7 @@ Get [ASP.NET 5 for your platform](https://github.com/aspnet/home#getting-started
 ### [Atom](https://atom.io/)
 - Install the [Autocomplete Plus](https://atom.io/packages/autocomplete-plus) package.
 - Install the [Omnisharp Atom](https://atom.io/packages/omnisharp-atom) package.
- 
+
 And more info in the [OmniSharp Atom wiki](https://github.com/OmniSharp/omnisharp-atom/wiki)!
 
 ### [Emacs](http://www.gnu.org/software/emacs/)
@@ -54,7 +54,7 @@ And more info in the [OmniSharp Atom wiki](https://github.com/OmniSharp/omnishar
     - Create some [keybindings](https://github.com/OmniSharp/Omnisharp#configuration)
 - Long version
     - See [here](https://github.com/OmniSharp/Omnisharp)
-    
+
 ### Command line only
 - Create projects using <a href="https://www.npmjs.org/package/generator-aspnet">yeoman aspnet generators</a>
 - Download _NuGet_, _npm_ and _Bower_ resources  with `dnu restore`
@@ -85,4 +85,4 @@ Jason Imison ([@nosami](http://github.com/nosami)), Jonathan Channon ([@jchannon
 
 ### Contact us
 
-Come and hang out at [jabbr](https://jabbr.net/#/rooms/omnisharp)
+<a class="btn btn-warning" href="https://omnisharp.herokuapp.com/"><strong>Come hang out with us on Slack!</strong></a>
