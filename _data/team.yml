@@ -57,7 +57,16 @@
   image: rajkumar42.png
   github: rajkumar42
 
+- name: Gregg Miskelly
+  image: gregg-miskelly.png
+  github: gregg-miskelly
+
 - name: Scott Hanselman
   image: shanselman.jpeg
   twitter: shanselman
   github: shanselman
+
+- name: Filip W
+  image: filipw.jpg
+  twitter: filip_woj
+  github: filipw
