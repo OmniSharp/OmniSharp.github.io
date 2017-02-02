@@ -13,30 +13,35 @@
   twitter: filip_woj
   github: filipw
 
-- name: Sayed Ibrahim Hashimi
-  image: sayedihashimi.jpeg
-  twitter: sayedihashimi
-  github: sayedihashimi
-
 - name: Peter Blazejewicz
   image: blazejewicz.jpeg
   twitter: blazejewicz
   github: peterblazejewicz
-
-- name: Shayne Boyer
-  image: spboyer.jpeg
-  twitter: spboyer
-  github: spboyer
 
 - name: William Luu
   image: willl.jpeg
   twitter: willl
   github: willl
 
+- name: Sayed Ibrahim Hashimi
+  image: sayedihashimi.jpeg
+  twitter: sayedihashimi
+  github: sayedihashimi
+
+- name: Shayne Boyer
+  image: spboyer.jpeg
+  twitter: spboyer
+  github: spboyer
+
 - name: thinca
   image: thinca.png
   twitter: thinca
   github: thinca
+
+- name: Troy Dai
+  image: troydai.jpeg
+  twitter: troy_dai
+  github: troydai
 
 - name: Chuck Ries
   image: chuckries.jpg
