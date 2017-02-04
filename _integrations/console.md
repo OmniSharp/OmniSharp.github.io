@@ -21,9 +21,5 @@ can use to get started.
 The goal of [```generator-aspnet```](https://github.com/OmniSharp/generator-aspnet) is to provide an experience consistent with creating new ASP.NET 5 (_DNX_) projects
 and files in Visual Studio 2015. Below are some other related generators that you may be interested in.
 
-#### ```generator-csharp```
-
-[```generator-csharp```](https://github.com/OmniSharp/generator-csharp) is a work in progress but is available for you to try out today. The goal of [```generator-csharp```](https://github.com/OmniSharp/generator-csharp) is to provide an experience consistent with creating C# projects (_MSBuild based, not DNX_) and files in Visual Studio 2015.
-
 If you are working on a related generator please [open an issue](https://github.com/OmniSharp/generator-aspnet/issues/new) to let us know about it so that we can add it to the list.
 
