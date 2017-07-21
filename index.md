@@ -32,16 +32,25 @@ And more info in the [OmniSharp Atom wiki](https://github.com/OmniSharp/omnishar
 
 ### [Emacs](http://www.gnu.org/software/emacs/)
 - Short version
-    - Enable the [MELPA](http://melpa.org/#/getting-started) stable package archive. Use MELPA [stable](https://github.com/milkypostman/melpa#stable-packages) for official releases, or plain MELPA for development snapshots.
-    - `M-x package-install RET omnisharp RET`
-    - Clone [omnisharp-server](https://github.com/OmniSharp/omnisharp-server) to a location of your choosing
-    - Build it :)
-    - Download [curl](http://curl.haxx.se/download.html)
-    - Customize omnisharp with `M-x customize-group RET omnisharp RET`
-    - Currently there are default keybinding suggestions for `evil-mode` users [at github](https://github.com/OmniSharp/omnisharp-emacs/blob/master/example-config-for-evil-mode.el). Adopt them or create your own!
-    - Start omnisharp with `M-x omnisharp-mode RET` or automatically in a mode hook
+1. On regular Emacs:
+   - Enable the [MELPA](http://melpa.org/#/getting-started) stable package archive. Use MELPA [stable](https://github.com/milkypostman/melpa#stable-packages) for official releases, or plain MELPA for development snapshots.
+   - Install package with `M-x package-install RET omnisharp RET`
+   - Configure your `csharp-mode` hook so it would enable `omnisharp-mode`.
+   - Add these lines in your init.el to make `omnisharp-mode` enabled for your csharp files:
+   ```
+     (eval-after-load
+         'company
+         '(add-to-list 'company-backends 'company-omnisharp))
+     (add-hook 'csharp-mode-hook 'omnisharp-mode)
+   ```
+1. On Spacemacs:
+   - Enable the `csharp` layer in your `~/.spacemacs`
+   - Restart
+1. Install the server with `M-x omnisharp-install-server RET` – follow instructions on minibuffer.
+1. Start the server with `M-x omnisharp-start-omnisharp-server`.
+1. You can also customize omnisharp with `M-x customize-group RET omnisharp RET`
 - Long version
-    - See [here](https://github.com/OmniSharp/omnisharp-emacs)
+1. See [here](https://github.com/OmniSharp/omnisharp-emacs)
 
 ### [Brackets](http://brackets.io/)
 - Install the Omnisharp extension from the [extension manager](https://brackets-registry.aboutweb.com/) within Brackets.io
