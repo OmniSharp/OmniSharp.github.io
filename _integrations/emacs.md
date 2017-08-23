@@ -12,7 +12,7 @@ github: omnisharp-emacs
 1. Build it :)
 1. Download [curl](http://curl.haxx.se/download.html)
 1. Customize omnisharp with `M-x customize-group RET omnisharp RET`
-1. Currently there are default keybinding suggestions for `evil-mode` users [at github](https://github.com/OmniSharp/omnisharp-emacs/blob/master/example-config-for-evil-mode.el). Adopt them or create your own!
+1. Currently there are default keybinding suggestions for `evil-mode` users [at github](https://github.com/OmniSharp/omnisharp-emacs/blob/567ff1ec2f1b02ac145eb44f0680d033fddaf0b5/doc/example-config-for-evil-mode.el). Adopt them or create your own!
     - Start omnisharp with `M-x omnisharp-mode RET` or automatically in a mode hook
 
 ### Long version
