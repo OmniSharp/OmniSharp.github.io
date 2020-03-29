@@ -15,7 +15,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Omnisharp Team
+  copyright: .NET Foundation
   location: Location
   social: Around the Web
   credits: Credits
